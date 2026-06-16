@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Experience premium dental care at Dr. Reddy's Dental Clinic in Kadugondanahalli, Bangalore. Advanced treatments, expert dentists, and a luxurious clinic environment.">
+    <meta name="keywords" content="Best Dentist in Bangalore, Dental Clinic Kadugondanahalli, Dr. Reddy's Dental Care, Root Canal Bangalore, Premium Dentistry, Teeth Whitening Bangalore">
+    <meta name="author" content="Dr. Reddy's Dental Care">
+    
+    <!-- Open Graph for Social Media & WhatsApp Sharing -->
+    <meta property="og:title" content="Dr. Reddy's Dental Care | Premium Dentistry in Bangalore">
+    <meta property="og:description" content="Advanced, painless dental treatments in Kadugondanahalli. Book your consultation today.">
+    <meta property="og:type" content="website">
+    
+    <title>Dr. Reddy's Dental Care | Top Dental Clinic in Kadugondanahalli, Bangalore</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0fdfa',
+                            100: '#ccfbf1',
+                            500: '#14b8a6', // Vibrant Teal
+                            600: '#0d9488', // Deep Teal
+                            900: '#134e4a', // Dark Teal
+                            gold: '#d97706', // Premium Gold for CTAs
+                            goldHover: '#b45309'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <style>
+        /* Strict prevention of horizontal scrollbars */
+        html, body {
+            overflow-x: hidden;
+            width: 100%;
+            position: relative;
+        }
+        
+        .hero-pattern {
+            background-image: linear-gradient(to right, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.7)), url('https://images.unsplash.com/photo-1606811841689-23dfddce3e95?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.98);
+            backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+        }
+
+        .premium-shadow {
+            box-shadow: 0 10px 40px -10px rgba(0,0,0,0.08);
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-gray-800 bg-gray-50 selection:bg-brand-500 selection:text-white">
+
+    <!-- Top Bar -->
+    <div class="bg-brand-900 text-white text-xs md:text-sm py-2 px-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <div class="flex items-center space-x-4">
+                <span class="hidden md:inline"><i class="fa-solid fa-location-dot text-brand-gold mr-1"></i> Anand Complex, Kadugondanahalli, Bangalore</span>
+                <span><i class="fa-solid fa-clock text-brand-gold mr-1"></i> Mon-Sat: 9:30 AM - 8:30 PM</span>
+            </div>
+            <div>
+                <a href="tel:+919945845852" class="font-semibold hover:text-brand-gold transition duration-300">
+                    <i class="fa-solid fa-phone mr-1"></i> +91 99458 45852
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="glass-nav sticky top-0 z-50 w-full transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center gap-3">
+                    <i class="fa-solid fa-tooth text-3xl text-brand-600"></i>
+                    <div>
+                        <h1 class="font-serif text-2xl font-bold text-gray-900 leading-none">Dr. Reddy's</h1>
+                        <span class="text-xs font-semibold tracking-widest text-brand-600 uppercase">Dental Care</span>
+                    </div>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <nav class="hidden md:flex space-x-8 items-center">
+                    <a href="#services" class="text-gray-600 hover:text-brand-600 font-medium transition">Services</a>
+                    <a href="#expertise" class="text-gray-600 hover:text-brand-600 font-medium transition">Expertise</a>
+                    <a href="#location" class="text-gray-600 hover:text-brand-600 font-medium transition">Location</a>
+                    <a href="#book" class="bg-brand-gold hover:bg-brand-goldHover text-white px-6 py-2.5 rounded-sm font-semibold transition-all shadow-md transform hover:-translate-y-0.5">
+                        Book Appointment
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero-pattern py-20 lg:py-32">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="max-w-2xl">
+                    <span class="inline-block py-1 px-3 rounded-full bg-brand-50 text-brand-600 text-sm font-semibold mb-4 border border-brand-100">
+                        #1 Rated Dental Clinic in Bangalore
+                    </span>
+                    <h2 class="text-5xl lg:text-6xl font-serif font-bold text-gray-900 leading-tight mb-6">
+                        World-Class Dentistry. <br>
+                        <span class="text-brand-600">Right Here in Bangalore.</span>
+                    </h2>
+                    <p class="text-lg text-gray-600 mb-8 leading-relaxed">
+                        Experience precision dental care combined with premium aesthetics. From advanced root canals to flawless smile makeovers, Dr. Reddy's Dental Care brings Amazon-tier precision to your oral health.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="#book" class="text-center bg-brand-600 hover:bg-brand-900 text-white px-8 py-4 rounded-sm font-semibold text-lg transition-all shadow-lg transform hover:-translate-y-1 flex items-center justify-center gap-2">
+                            Schedule Consultation <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                        <a href="https://maps.app.goo.gl/bmFgDEAWqEer7G9C8" target="_blank" rel="noopener noreferrer" class="text-center bg-white hover:bg-gray-50 text-gray-900 border border-gray-200 px-8 py-4 rounded-sm font-semibold text-lg transition-all shadow-sm flex items-center justify-center gap-2">
+                            <i class="fa-solid fa-map-location-dot text-brand-600"></i> Get Directions
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Premium Services Grid -->
+        <section id="services" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16">
+                    <h2 class="text-3xl md:text-4xl font-serif font-bold text-gray-900 mb-4">Master-Crafted Dental Services</h2>
+                    <p class="text-gray-600">We utilize cutting-edge technology to ensure painless, precise, and permanent solutions for your smile.</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Service 1 -->
+                    <div class="bg-gray-50 p-8 rounded-sm hover:premium-shadow transition-all duration-300 border border-gray-100 group border-t-4 border-t-transparent hover:border-t-brand-500">
+                        <div class="w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-sm mb-6 text-brand-600 group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-tooth text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Root Canal Therapy</h3>
+                        <p class="text-gray-600 mb-6 text-sm leading-relaxed">Advanced microscopic endodontics for pain-free single-sitting root canals.</p>
+                        <a href="#book" class="text-brand-600 font-semibold text-sm group-hover:text-brand-900">Enquire Now <i class="fa-solid fa-chevron-right text-xs ml-1"></i></a>
+                    </div>
+                    
+                    <!-- Service 2 -->
+                    <div class="bg-gray-50 p-8 rounded-sm hover:premium-shadow transition-all duration-300 border border-gray-100 group border-t-4 border-t-transparent hover:border-t-brand-500">
+                        <div class="w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-sm mb-6 text-brand-600 group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-face-smile text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Cosmetic Makeovers</h3>
+                        <p class="text-gray-600 mb-6 text-sm leading-relaxed">Veneers, teeth whitening, and alignment to architect your perfect smile.</p>
+                        <a href="#book" class="text-brand-600 font-semibold text-sm group-hover:text-brand-900">Enquire Now <i class="fa-solid fa-chevron-right text-xs ml-1"></i></a>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="bg-gray-50 p-8 rounded-sm hover:premium-shadow transition-all duration-300 border border-gray-100 group border-t-4 border-t-transparent hover:border-t-brand-500">
+                        <div class="w-14 h-14 bg-white rounded-full flex items-center justify-center shadow-sm mb-6 text-brand-600 group-hover:bg-brand-600 group-hover:text-white transition-colors">
+                            <i class="fa-solid fa-screw-dek text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">Dental Implants</h3>
+                        <p class="text-gray-600 mb-6 text-sm leading-relaxed">Titanium precision implants restoring functionality and aesthetics flawlessly.</p>
+                        <a href="#book" class="text-brand-600 font-semibold text-sm group-hover:text-brand-900">Enquire Now <i class="fa-solid fa-chevron-right text-xs ml-1"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Banner -->
+        <section class="bg-brand-900 py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between">
+                <div class="text-white mb-8 md:mb-0 max-w-2xl">
+                    <h2 class="text-3xl font-serif font-bold mb-2">Experiencing Dental Pain?</h2>
+                    <p class="text-brand-100">Don't wait. We reserve time daily for emergency appointments in Bangalore.</p>
+                </div>
+                <div class="flex gap-4 w-full md:w-auto">
+                    <a href="tel:+919945845852" class="flex-1 md:flex-none text-center bg-white text-brand-900 px-8 py-3 rounded-sm font-bold shadow-lg hover:bg-gray-100 transition">
+                        <i class="fa-solid fa-phone mr-2"></i> Call Clinic
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Location & Contact -->
+        <section id="location" class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 bg-white rounded-sm premium-shadow overflow-hidden">
+                    
+                    <!-- Google Maps Embed -->
+                    <div class="h-96 lg:h-auto w-full relative">
+                        <!-- User's exact GMaps Location Embed -->
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.0652253018445!2d77.62534571165681!3d13.03150241352516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1713437bb213%3A0x6335a90947e4eb12!2sReddy&#39;s%20Dental%20Clinic!5e0!3m2!1sen!2sin!4v1718116591024!5m2!1sen!2sin" 
+                            class="absolute inset-0 w-full h-full border-0" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+
+                    <!-- Contact Details & Form -->
+                    <div class="p-8 lg:p-12" id="book">
+                        <h2 class="text-3xl font-serif font-bold text-gray-900 mb-6">Visit Our Clinic</h2>
+                        
+                        <div class="space-y-4 mb-8">
+                            <div class="flex items-start">
+                                <i class="fa-solid fa-map-pin text-brand-600 mt-1 mr-4 text-xl"></i>
+                                <div>
+                                    <h4 class="font-bold text-gray-900">Address</h4>
+                                    <p class="text-gray-600 text-sm">No 05 Ananda Complex, Star Medicals,<br>Arabic College Main Road,<br>Venkateshpura-Kadugondanahalli,<br>Bangalore-560045, Karnataka</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <i class="fa-solid fa-phone-volume text-brand-600 mt-1 mr-4 text-xl"></i>
+                                <div>
+                                    <h4 class="font-bold text-gray-900">Phone</h4>
+                                    <p class="text-gray-600 text-sm">+91 99458 45852</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Booking CTA -->
+                        <div class="bg-gray-50 p-6 rounded-sm border border-gray-100">
+                            <h4 class="font-bold text-gray-900 mb-2">Request an Appointment</h4>
+                            <p class="text-sm text-gray-600 mb-4">Click below to open WhatsApp and schedule your consultation instantly.</p>
+                            <a href="https://wa.me/919945845852?text=Hello%20Dr.%20Reddy's%20Dental%20Care,%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" class="block w-full text-center bg-[#25D366] hover:bg-[#1ebd5a] text-white py-3 rounded-sm font-bold transition shadow-md">
+                                <i class="fa-brands fa-whatsapp mr-2"></i> Book via WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12 border-t-4 border-brand-600">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="font-serif text-xl font-bold text-white mb-4">Dr. Reddy's Dental Care</h3>
+                <p class="text-sm text-gray-400 mb-4 leading-relaxed">Delivering world-class dental expertise, advanced technology, and compassionate care to the Bangalore community.</p>
+            </div>
+            <div>
+                <h3 class="text-white font-bold mb-4 uppercase tracking-wider text-sm">Quick Links</h3>
+                <ul class="space-y-2 text-sm">
+                    <li><a href="#services" class="hover:text-brand-500 transition">Our Services</a></li>
+                    <li><a href="https://maps.app.goo.gl/bmFgDEAWqEer7G9C8" target="_blank" class="hover:text-brand-500 transition">Google Maps</a></li>
+                    <li><a href="#book" class="hover:text-brand-500 transition">Book Appointment</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3 class="text-white font-bold mb-4 uppercase tracking-wider text-sm">Connect</h3>
+                <div class="flex space-x-4">
+                    <a href="#" class="w-10 h-10 bg-gray-800 rounded-sm flex items-center justify-center hover:bg-brand-600 hover:text-white transition"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="w-10 h-10 bg-gray-800 rounded-sm flex items-center justify-center hover:bg-brand-600 hover:text-white transition"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="w-10 h-10 bg-gray-800 rounded-sm flex items-center justify-center hover:bg-brand-600 hover:text-white transition"><i class="fa-brands fa-google"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12 pt-8 border-t border-gray-800 text-sm text-center text-gray-500">
+            &copy; 2026 Dr. Reddy's Dental Care. All rights reserved. 
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp CTA -->
+    <a href="https://wa.me/919945845852" target="_blank" class="fixed bottom-6 right-6 bg-[#25D366] text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl hover:scale-110 transition-transform duration-300 z-50">
+        <i class="fa-brands fa-whatsapp text-3xl"></i>
+    </a>
+
+</body>
+</html>
